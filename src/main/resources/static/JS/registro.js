@@ -4,7 +4,7 @@ let btnClear = document.getElementById("btnClear");
 
 
 // Fetch user data from the API
-let promesa = fetch("http://localhost:8080/api/usuarios/", { method: 'GET' });
+let promesa = fetch("https://granbazar.onrender.com/api/usuarios/", { method: 'GET' });
 
 promesa
     .then(response => response.json())
@@ -100,7 +100,7 @@ btnCrearCuenta.addEventListener("click", function (event) {
             password: txtPassword,
         };
 
-        let peticionPost = fetch('http://localhost:8080/api/usuarios/', {
+        let peticionPost = fetch('https://granbazar.onrender.com/api/usuarios/', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

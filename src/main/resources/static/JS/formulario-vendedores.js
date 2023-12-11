@@ -117,7 +117,7 @@ function validarImagen() {
 
 /*
 // Fetch user data from the API
-let promesa = fetch("http://localhost:8080/api/productos/", { method: 'GET' });
+let promesa = fetch("https://granbazar.onrender.com/api/productos/", { method: 'GET' });
 
 
 
@@ -278,7 +278,7 @@ var requestOptions = {
   redirect: 'follow'
 };
 
-fetch("http://localhost:8080/api/productos/", requestOptions)
+fetch("https://granbazar.onrender.com/api/productos/", requestOptions)
   .then(response => response.text())
   .then(result => console.log(result))
   .catch(error => console.log('error', error));

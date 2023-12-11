@@ -32,7 +32,7 @@ var requestOptions = {
   redirect: 'follow'
 };
 
-fetch("http://localhost:8080/api/login/", requestOptions)
+fetch("https://granbazar.onrender.com/api/login/", requestOptions)
   .then(response => response.text())
     .then(result => {console.log(result)
              

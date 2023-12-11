@@ -1,7 +1,7 @@
 
 function getData(){
 
-let promesa = fetch("http://localhost:8080/api/productos/", {method: 'GET'});
+let promesa = fetch("https://granbazar.onrender.com/api/productos/", {method: 'GET'});
 
 promesa
 .then(response => {response.json()  
