@@ -117,7 +117,7 @@ function validarImagen() {
 
 /*
 // Fetch user data from the API
-let promesa = fetch("http://localhost:8080/api/productos/", { method: 'GET' });
+let promesa = fetch("https://granbazar.onrender.com/api/productos/", { method: 'GET' });
 
 
 
@@ -252,7 +252,7 @@ btnEnviarForm.addEventListener("click", function(event){
     if(isValid){ //Si es valido el nombre y la cantidad los agregará a la tabla, si no, no los agregará
 
          var myHeaders = new Headers();
-         myHeaders.append("Authorization", "Bearer: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJha2FyaXNpdGFAZ21haWwuY29tIiwicm9sZSI6InVzZXIiLCJpYXQiOjE3MDIwNjY3MTEsImV4cCI6MTcwMjEwMjcxMX0.bPGjeJ05OpVieny8IFX1O0AjuN3r66Hwe-uSnenxnxI");
+         myHeaders.append("Authorization", "Bearer: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJha2FyaXNpdGFAZ21haWwuY29tIiwicm9sZSI6InVzZXIiLCJpYXQiOjE3MDIzMzU2NzIsImV4cCI6MTcwMjM3MTY3Mn0.JioaLN-6Z0iUmlEE1ao5D7u0j3p7vgGXMK9ftBt09YY");
          myHeaders.append("Content-Type", "application/json");
 
 
@@ -278,7 +278,7 @@ var requestOptions = {
   redirect: 'follow'
 };
 
-fetch("http://localhost:8080/api/productos/", requestOptions)
+fetch("https://granbazar.onrender.com/api/productos/", requestOptions)
   .then(response => response.text())
   .then(result => console.log(result))
   .catch(error => console.log('error', error));
